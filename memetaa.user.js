@@ -15,5 +15,8 @@ container = $("<div style='position:fixed;left:0;bottom:0;width:100%;z-index:100
 container.append($('<div/>').append($("meta[name=keywords],meta[name=KEYWORDS]").attr('content')));
 container.append($('<div/>').append($("meta[name=description],meta[name=DESCRIPTION]").attr('content')));
 
-container.appendTo('body');
+if (container.text().length <= 0) {
+  return;
+}
 
+container.appendTo('body');
