@@ -5,7 +5,6 @@
 // @include     https://*
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
 // @grant       none
-// @version     1
 // ==/UserScript==
 
 container = $("<div style='position:fixed;left:0;bottom:0;width:100%;z-index:10000;padding:3px;background-color:black;color:white;font-size:9px;' />")
