@@ -7,9 +7,9 @@
 // @grant       none
 // ==/UserScript==
 
-container = $("<div style='position:fixed;left:0;bottom:0;width:100%;z-index:10000;padding:3px;background-color:black;color:white;font-size:9px;' />")
-container.append($('<div/>').append($("meta[name=keywords],meta[name=KEYWORDS]").attr('content')))
-container.append($('<div/>').append($("meta[name=description],meta[name=DESCRIPTION]").attr('content')))
+container = $("<div style='position:fixed;left:0;bottom:0;width:100%;z-index:10000;padding:3px;background-color:black;color:white;font-size:9px;' />");
+container.append($('<div/>').append($("meta[name=keywords],meta[name=KEYWORDS]").attr('content')));
+container.append($('<div/>').append($("meta[name=description],meta[name=DESCRIPTION]").attr('content')));
 
-container.appendTo('body')
+container.appendTo('body');
 
